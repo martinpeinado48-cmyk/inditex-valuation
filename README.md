@@ -5,6 +5,8 @@ Corporate finance portfolio project by **Martín Peinado Miraflores** (Business 
 
 > **Educational project. Not investment advice.** All hypotheses are the author's own; third-party data is kept with its source and date. Figures are as of **7 October 2026**.
 
+📄 **4-page report (PDF):** [English](informe/Inditex_Report_EN.pdf) · [Español](informe/Inditex_Informe_ES.pdf)
+
 ## What this project does
 
 1. **Extracts** Inditex's consolidated annual accounts (fiscal years 2020-2025) from the official PDFs into a clean dataset, validated with accounting identities (balance sheet balances, EBITDA → EBIT → net income, cash flow reconciles with the balance sheet).
@@ -55,9 +57,11 @@ src/
   calidad_contable.py              Altman Z'' and Beneish M-score
   build_excel.py                   Builds the Excel workbook with formulas
   limpiar_metadatos_excel.py       Strips machine-specific metadata from the .xlsx
+  report_charts.py                 Report charts in Spanish and English
+  build_report.py                  Builds the PDF reports (HTML template + Microsoft Edge headless)
 data/market/                       Market data and peer multiples, each with source and date
 data/processed/                    Clean datasets and model outputs
-informe/graficos/                  Charts
+informe/                           PDF reports (EN/ES) and charts (graficos/, report_assets/)
 docs/Guia_del_modelo.md            Full guide to the model (Spanish)
 ```
 
@@ -80,6 +84,8 @@ python src/dcf_model.py
 python src/comparables.py
 python src/montecarlo.py
 python src/calidad_contable.py
+python src/report_charts.py
+python src/build_report.py      # needs Microsoft Edge; writes the two PDFs to informe/
 ```
 
 `src/beta.py` and `src/hipotesis_analisis.py` need an internet connection (Yahoo Finance). Excel recalculates the workbook when opened; `src/build_excel.py` regenerates it from Python.

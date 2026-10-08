@@ -5,6 +5,8 @@ Proyecto de finanzas corporativas de **Martín Peinado Miraflores** (estudiante 
 
 > **Proyecto educativo. No es asesoramiento de inversión.** Todas las hipótesis son del autor; los datos de terceros se conservan con su fuente y fecha. Cifras a **7 de octubre de 2026**.
 
+📄 **Informe de 4 páginas (PDF):** [Español](informe/Inditex_Informe_ES.pdf) · [English](informe/Inditex_Report_EN.pdf)
+
 ## Qué hace este proyecto
 
 1. **Extrae** las cuentas anuales consolidadas de Inditex (ejercicios 2020-2025) desde los PDF oficiales a un conjunto de datos limpio, validado con identidades contables (el balance cuadra, EBITDA → EBIT → resultado neto, y los flujos de caja explican la variación de caja del balance).
@@ -55,9 +57,11 @@ src/
   calidad_contable.py              Altman Z'' y Beneish M-score
   build_excel.py                   Construye el libro de Excel con fórmulas
   limpiar_metadatos_excel.py       Quita del .xlsx los metadatos del equipo
+  report_charts.py                 Gráficos del informe en español e inglés
+  build_report.py                  Genera los informes en PDF (plantilla HTML + Microsoft Edge sin ventana)
 data/market/                       Datos de mercado y múltiplos, cada uno con fuente y fecha
 data/processed/                    Datos limpios y resultados del modelo
-informe/graficos/                  Gráficos
+informe/                           Informes en PDF (ES/EN) y gráficos (graficos/, report_assets/)
 docs/Guia_del_modelo.md            Guía completa del modelo
 ```
 
@@ -80,6 +84,8 @@ python src/dcf_model.py
 python src/comparables.py
 python src/montecarlo.py
 python src/calidad_contable.py
+python src/report_charts.py
+python src/build_report.py      # necesita Microsoft Edge; escribe los dos PDF en informe/
 ```
 
 `src/beta.py` y `src/hipotesis_analisis.py` necesitan conexión a internet (Yahoo Finance). Excel recalcula el libro al abrirlo; `src/build_excel.py` lo regenera desde Python.

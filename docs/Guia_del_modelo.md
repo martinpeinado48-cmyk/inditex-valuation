@@ -292,6 +292,8 @@ Compara cada año con el anterior mediante ocho índices (DSRI, GMI, AQI, SGI, D
 | `comparables.py` | Calcula qué valdría Inditex al múltiplo de H&M, Fast Retailing y Next, y dibuja el campo de fútbol |
 | `montecarlo.py` | 20.000 simulaciones del DCF con las hipótesis inciertas; probabilidad de superar el precio |
 | `calidad_contable.py` | Altman Z'' y Beneish M-score de Inditex, con control por NIIF 16 |
+| `report_charts.py` | Gráficos del informe en español e inglés (sin título dentro de la imagen) |
+| `build_report.py` | Genera los dos informes en PDF a partir de una plantilla HTML y Microsoft Edge sin ventana |
 | `hipotesis_analisis.py` | Cambia una hipótesis cada vez (gráfico tornado), calcula paquetes de coste del capital y el DCF inverso |
 | `build_excel.py` | Construye el Excel con fórmulas |
 
@@ -301,7 +303,7 @@ Compara cada año con el anterior mediante ocho índices (DSRI, GMI, AQI, SGI, D
 
 - **Resultado (Base): 42,87 € frente a 54,38 €** de precio. Rango de escenarios: 32,73 € a 51,75 €.
 - **El coste del capital pesa más que cualquier hipótesis operativa:** prima de riesgo (41-52 €) y beta (40-51 €) mueven más el valor que ±1 pp de crecimiento (40-46 €) o ±1,5 pp de margen (40-46 €).
-- **DCF inverso:** con los flujos del escenario Base, el precio equivale a un coste del capital de ≈7,5 % (frente al 8,97 %), o a +2,4 pp de crecimiento cada año.
+- **DCF inverso:** con los flujos del escenario Base, el precio equivale a un coste del capital de ≈7,5 % (frente al 8,97 %), o a +3,1 pp de crecimiento de ventas cada año sobre el escenario Base; con las ventas y márgenes del consenso, el precio exigiría un coste del capital de ≈8,1 %.
 - **Los comparables dan una historia parecida:** la mediana de los comparables (H&M, Next, Fast Retailing) da 42-45 € por acción, casi igual que el DCF Base (42,9 €), mientras que la media (50-54 €) se acerca al precio porque incluye a Fast Retailing.
 - **Monte Carlo:** mediana 43,0 € (coherente con el DCF Base), 90 % de los casos entre 32,9 € y 57,3 €, y solo un **8,9 %** de probabilidad de que el valor supere el precio actual.
 - **Calidad contable:** Altman Z'' de 4,6 a 6,0 (zona segura, > 2,6) y Beneish M de −2,7 a −2,9, por debajo de los umbrales de alerta también tras ajustar por NIIF 16. Sin señales de alarma, como era de esperar.
