@@ -95,6 +95,7 @@ python src/build_report.py      # needs Microsoft Edge; writes the two PDFs to i
 - **Sources:** Inditex consolidated annual accounts and results (inditex.com); Yahoo Finance and Investing.com (prices, multiples, betas); datosmacro (government bond yields); Damodaran (equity risk premia, sector betas); ECB projections; Bolsamanía and Bankinter (consensus and research). Every data point in `data/market/` carries its source and date.
 - **Limitations:** the first half of fiscal 2026 is valued as half of the annual flow (ignores seasonality); only three peers, with different fiscal calendars (not calendarised); consensus labels were interpreted as fiscal years ending in January; the Monte Carlo probabilities depend on the ranges chosen for each hypothesis; Altman and Beneish were designed on other companies and eras.
 
-## Author
+## Author and license
 
 Martín Peinado Miraflores, Business Administration, Universidad Complutense de Madrid.
+Released under the [MIT License](LICENSE). Third-party data remains subject to its original sources' terms.
