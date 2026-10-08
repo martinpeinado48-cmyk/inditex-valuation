@@ -1,0 +1,17 @@
+node_modules
+dist
+.DS_Store
+.env
+
+# Ignore the output video from Git but not videos you import into src/.
+out
+
+# Generated or local only
+final
+public/*.wav
+scripts/stems_cache.npz
+
+# Remotion agent skills (reinstall with: npx remotion skills add)
+.agents
+.claude
+skills-lock.json

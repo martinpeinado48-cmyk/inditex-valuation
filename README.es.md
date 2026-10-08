@@ -13,6 +13,7 @@ Proyecto de finanzas corporativas de **Martín Peinado Miraflores** (estudiante 
 2. **Analiza ratios** (márgenes, ROIC/ROE, circulante, caja frente a dividendos) en un cuaderno de Jupyter.
 3. **Valora la empresa por DCF** en Excel (fórmulas vivas, tres escenarios, tabla de sensibilidad) y con una **réplica en Python que coincide con el Excel al céntimo**.
 4. **Contrasta el resultado** con múltiplos de comparables (H&M, Fast Retailing, Next), una simulación **Monte Carlo** (20.000 repeticiones) y dos pruebas de calidad contable: **Altman Z''** y **Beneish M-score**.
+5. **Lo explica en un vídeo de 59 segundos** ([`video/`](video/)), escrito como código con [Remotion](https://www.remotion.dev) y alimentado con las cifras reales del modelo.
 
 ## Resultados principales (precio de la acción: 54,38 €)
 
@@ -63,6 +64,7 @@ data/market/                       Datos de mercado y múltiplos, cada uno con f
 data/processed/                    Datos limpios y resultados del modelo
 informe/                           Informes en PDF (ES/EN) y gráficos (graficos/, report_assets/)
 docs/Guia_del_modelo.md            Guía completa del modelo
+video/                             Proyecto Remotion del vídeo explicativo (4:5, 59 s): escenas en React, cifras del modelo y música original hecha con Python (ver video/README.md)
 ```
 
 ## Cómo reproducirlo

@@ -13,6 +13,7 @@ Corporate finance portfolio project by **Martín Peinado Miraflores** (Business 
 2. **Analyses ratios** (margins, ROIC/ROE, working capital, cash vs. dividends) in a Jupyter notebook.
 3. **Values the company with a DCF** in Excel (live formulas, three scenarios, sensitivity table) and a **Python replica that matches the Excel to the cent**.
 4. **Cross-checks the result** with peer multiples (H&M, Fast Retailing, Next), a **Monte Carlo** simulation (20,000 runs), and two accounting-quality screens: **Altman Z''** and **Beneish M-score**.
+5. **Explains it in a 59-second video** ([`video/`](video/)), written as code with [Remotion](https://www.remotion.dev) and fed with the model's real figures.
 
 ## Key results (share price: €54.38)
 
@@ -63,6 +64,7 @@ data/market/                       Market data and peer multiples, each with sou
 data/processed/                    Clean datasets and model outputs
 informe/                           PDF reports (EN/ES) and charts (graficos/, report_assets/)
 docs/Guia_del_modelo.md            Full guide to the model (Spanish)
+video/                             Remotion project of the explainer video (4:5, 59 s): scenes in React, model figures and an original soundtrack made with Python (see video/README.md)
 ```
 
 ## Reproduce
