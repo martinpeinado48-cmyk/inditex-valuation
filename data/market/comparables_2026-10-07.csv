@@ -1,0 +1,5 @@
+empresa,ticker,moneda,per_trailing,per_forward,ev_ebitda,ev_ventas,margen_operativo_pct,roe_pct,crec_ventas_trim_yoy_pct,beta_5a_mensual,ev_mm_miles,cap_bursatil_mm_miles,deuda_total_miles,caja_total_miles,fuente,fecha
+Inditex,ITX.MC,EUR,25.80,24.63,13.51,3.90,18.92,36.82,9.10,0.96,160.96,165.16,6.20,10.40,Yahoo Finance (key-statistics),2026-10-07
+H&M,HM-B.ST,SEK,21.64,20.33,7.72,1.37,10.74,33.25,0.30,1.05,302.98,265.32,79.38,26.51,Yahoo Finance (key-statistics),2026-10-07
+Fast Retailing,9983.T,JPY,43.44,35.97,20.18,5.25,21.00,22.48,22.20,0.50,19240.00,20770.00,798.43,2090.00,Yahoo Finance (key-statistics),2026-10-07
+Next,NXT.L,GBP,18.35,16.61,10.91,2.55,17.70,54.54,9.60,1.07,18.34,16.47,1.96,0.06,Yahoo Finance (key-statistics),2026-10-07
