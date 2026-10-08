@@ -1,0 +1,41 @@
+clave,valor,unidad,fecha_dato,fuente,nota
+precio_accion,54.38,EUR,2026-10-07,es.investing.com/equities/inditex,Cotización intradía; cierre anterior 53.82. Cotiza con derecho a dividendo hasta el 29/10/2026.
+acciones,3115921539,acciones,2026-07-31,Resultados 1S2026 de Inditex (nota BPA),Base del BPA 1S2026
+beta,0.90,x,2026-10-07,es.investing.com/equities/inditex,Fuente única. Pendiente de contrastar con una regresión propia (Python).
+rf_bono_espana_10a,0.0411,fraccion,2026-09-30,datosmacro.expansion.com/bono/espana,Último cierre publicado en la página. La subasta del Tesoro del 01/10/2026 colocó a 4.176% de media (ABC).
+spread_default_espana,0.0102,fraccion,2026-01-05,Damodaran (ctryprem),Rating Moody's A3
+erp_mercado_maduro,0.0423,fraccion,2026-01-05,Damodaran (ctryprem),ERP implícita de mercado maduro. Actualización de julio 2026: ERP implícita EE.UU. 4.42% (Damodaran).
+erp_total_espana,0.0578,fraccion,2026-01-05,Damodaran (ctryprem),4.23% + prima de riesgo país de España 1.55%
+efectivo,4361,M EUR,2026-07-31,Resultados 1S2026 de Inditex,
+inversiones_financieras_temporales,6038,M EUR,2026-07-31,Resultados 1S2026 de Inditex,
+deuda_financiera,1,M EUR,2026-07-31,Resultados 1S2026 de Inditex,Solo corriente; no corriente = 0
+posicion_financiera_neta,10398,M EUR,2026-07-31,Resultados 1S2026 de Inditex,Caja + inversiones temporales - deuda
+arrendamiento_lp,4549,M EUR,2026-07-31,Resultados 1S2026 de Inditex,
+arrendamiento_cp,1648,M EUR,2026-07-31,Resultados 1S2026 de Inditex,
+ventas_1S2026,19755,M EUR,2026-07-31,Resultados 1S2026 de Inditex,+7.6% reportado; +9.2% a tipo de cambio constante
+ebit_1S2026,3843,M EUR,2026-07-31,Resultados 1S2026 de Inditex,Margen 19.5%
+bai_1S2026,3845,M EUR,2026-07-31,Resultados 1S2026 de Inditex,
+impuesto_1S2026,865,M EUR,2026-07-31,Resultados 1S2026 de Inditex,Tipo efectivo 22.5%
+resultado_neto_1S2026,2980,M EUR,2026-07-31,Resultados 1S2026 de Inditex,
+crecimiento_ventas_tc_2025,0.070,fraccion,2026-01-31,Resultados ejercicio 2025 de Inditex,Reportado +3.2%
+crecimiento_ventas_tc_1S2026,0.092,fraccion,2026-07-31,Resultados 1S2026 de Inditex,Reportado +7.6%
+crecimiento_ventas_tc_ago_sep_2026,0.09,fraccion,2026-09-07,Resultados 1S2026 de Inditex,Del 1 de agosto al 7 de septiembre de 2026
+guia_capex_ordinario_2026,2300,M EUR,2026-09,Resultados 1S2026 de Inditex,Aprox.
+guia_capex_extraordinario_2026,200,M EUR,2026-09,Resultados 1S2026 de Inditex,Instalaciones corporativas; aprox.
+guia_espacio_bruto_2026,0.05,fraccion,2026-09,Resultados 1S2026 de Inditex,Crecimiento anual aprox.
+guia_impacto_divisa_ventas_2026,-0.01,fraccion,2026-09,Resultados 1S2026 de Inditex,Aprox. a tipos de cambio actuales
+guia_margen_bruto_2026,0.0,fraccion,2026-09,Resultados 1S2026 de Inditex,Estable +/-50 pb
+politica_payout_ordinario,0.60,fraccion,2026-03,Resultados ejercicio 2025 de Inditex,Más dividendos extraordinarios
+dividendo_2025_por_accion,1.75,EUR,2026-03,Resultados ejercicio 2025 de Inditex,1.20 ordinario + 0.55 extraordinario; pagado 0.875 el 04/05/2026 y 0.875 el 02/11/2026
+fecha_exdividendo,2026-10-29,fecha,2026-10-29,finanzas.yahoo.com/quote/ITX.MC,Dato de un resumen de búsqueda; confirmar
+bono_aleman_10a,0.0357,fraccion,2026-09-30,datosmacro.expansion.com/bono/alemania,Referencia habitual de tipo libre de riesgo en euros. Diferencial con España: 0.54 pp
+erp_mercado_maduro_jul2026,0.0417,fraccion,2026-07,Damodaran (actualización de julio 2026; dato de un resumen de búsqueda),Sustituye al 4.23% de enero. ERP implícita EE.UU. a 1/7/2026: 4.42%
+beta_sector_apparel_cash_corrected,0.79,x,2026-01,Damodaran (betas por sector EE.UU.),Beta desapalancada corregida por caja; Apparel. Retail (General) 0.78
+beta_regresion_semanal_5a_eurostoxx50,0.951,x,2026-10-07,Cálculo propio (src/beta.py; Yahoo Finance),IC95% 0.80-1.10; otros índices y frecuencias en beta_inditex.csv
+consenso_ventas_FY2026E,42727,M EUR,2026-08-31,Bolsamanía (consenso),Etiquetado "2027e" por la fuente; se asume ejercicio que acaba el 31/01/2027
+consenso_ventas_FY2029E,53086,M EUR,2026-08-31,Bolsamanía (consenso),Etiquetado "2030e" por la fuente
+consenso_ebit_FY2026E,8733,M EUR,2026-08-31,Bolsamanía (consenso),Margen 20.4%
+consenso_ebit_FY2029E,11446,M EUR,2026-08-31,Bolsamanía (consenso),Margen 21.6%
+precio_objetivo_consenso,59.54,EUR,2026-08-31,Bolsamanía (24 analistas),Rango 41.50-65.00
+precio_objetivo_bankinter,60.0,EUR,2026-09-10,Bankinter,Recomendación Neutral. EBIT 2T26: 19.0% (-20 pb); espera márgenes estables
+bce_inflacion_2026_2027_2028,0.030/0.025/0.021,fraccion,2026-09,BCE proyecciones septiembre 2026,Crecimiento PIB eurozona 0.9% / 1.4% / 1.5%; objetivo de inflación 2%
