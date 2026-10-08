@@ -1,0 +1,13 @@
+# Entorno virtual y cachés de Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# PDF originales de Inditex (descargar desde inditex.com; ver README)
+data/raw/
+
+# Archivos temporales de Excel y secretos
+~$*
+*.tmp
+.env
